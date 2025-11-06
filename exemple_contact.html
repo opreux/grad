@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+        <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Bloc1 - SLAM - Ouverture de compte</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="./ouvertureDeCompte.js"></script>
+        <link rel="stylesheet" media="screen" type="text/css" href="ouvertureDeCompte.css"/>
+    </head>
+
+<body>
+    <center>
+        <h1>Page d'ouverture de compte</h1>
+        <fieldset>
+            <legend>Identifiant / Mot de passe</legend>
+            <span class="ligneForm">
+                <label for="login">Identifiant</label>
+                <input type="text" id="login" />
+            </span>
+            <span class="ligneForm">
+                <label for="pass1">Mot de passe</label>
+                <input type="text" id="pass1" />
+            </span>
+            <span class="ligneForm">
+                <label for="pass2">Confirmation de mot de passe</label>
+                <input type="text" id="pass2" />
+            </span>
+        </fieldset>
+
+        <input type="button" value="Annuler" id="boutonAnnuler" />
+        <input type="button" value="Valider" id="boutonValider"/>
+
+        <fieldset>
+            <legend>Messages</legend>
+            <textarea id="message"></textarea>
+        </fieldset>
+    </center>
+
+</body>
+</html>

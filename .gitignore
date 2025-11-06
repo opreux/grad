@@ -1,0 +1,12 @@
+# Dossier corrigé
+CORRIGE/
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*~
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
