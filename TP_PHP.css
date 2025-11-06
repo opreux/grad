@@ -1,0 +1,190 @@
+/* CSS pour le document TP PHP */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+h2 {
+    color: #34495e;
+    border-bottom: 2px solid #95a5a6;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #555;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 15px 0;
+    text-align: justify;
+}
+
+/* Code inline */
+code {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 2px 6px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    color: #c7254e;
+}
+
+/* Blocs de code */
+pre {
+    background-color: #2d2d2d;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+pre code {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: #f8f8f2;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+/* Blocs de code avec coloration syntaxique (sourceCode) */
+.sourceCode {
+    background-color: #2d2d2d;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+.sourceCode pre {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sourceCode code {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: #f8f8f2;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+/* Coloration syntaxique PHP dans les blocs sourceCode */
+.sourceCode.php .kw {
+    color: #c678dd; /* Mots-clés PHP (<?php, if, foreach, etc.) */
+}
+
+.sourceCode.php .fu {
+    color: #61afef; /* Fonctions */
+}
+
+.sourceCode.php .st {
+    color: #98c379; /* Chaînes de caractères */
+}
+
+.sourceCode.php .op {
+    color: #abb2bf; /* Opérateurs */
+}
+
+.sourceCode.php .ot {
+    color: #e06c75; /* Balises HTML */
+}
+
+.sourceCode.php .va {
+    color: #e5c07b; /* Variables */
+}
+
+.sourceCode.php .dt {
+    color: #c678dd; /* Types de données */
+}
+
+.sourceCode.php .cf {
+    color: #c678dd; /* Structures de contrôle */
+}
+
+.sourceCode.php .co {
+    color: #5c6370; /* Commentaires */
+    font-style: italic;
+}
+
+.sourceCode.php .cn {
+    color: #d19a66; /* Constantes */
+}
+
+/* Coloration SQL */
+.sourceCode.sql .kw {
+    color: #c678dd; /* Mots-clés SQL */
+}
+
+.sourceCode.sql .dt {
+    color: #e5c07b; /* Types de données */
+}
+
+/* Coloration Bash */
+.sourceCode.bash .ex {
+    color: #61afef; /* Commandes */
+}
+
+.sourceCode.bash .at {
+    color: #98c379; /* Options */
+}
+
+/* Listes */
+ol, ul {
+    margin: 15px 0;
+    padding-left: 30px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+/* Liens d'ancrage (invisibles) */
+a[aria-hidden="true"] {
+    display: none;
+}
+
+/* Séparateurs horizontaux */
+hr {
+    border: none;
+    border-top: 2px solid #3498db;
+    margin: 40px 0;
+}
+
+/* Strong pour les notes importantes */
+strong {
+    color: #e74c3c;
+}
+
+/* Amélioration de la lisibilité */
+blockquote {
+    border-left: 4px solid #3498db;
+    padding-left: 15px;
+    margin: 20px 0;
+    color: #555;
+    font-style: italic;
+}
+
