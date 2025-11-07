@@ -49,7 +49,7 @@ code {
 
 /* Blocs de code */
 pre {
-    background-color: #2d2d2d;
+    background-color: #fffef5;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 15px;
@@ -61,14 +61,14 @@ pre code {
     background-color: transparent;
     border: none;
     padding: 0;
-    color: #f8f8f2;
+    color: #333;
     font-size: 0.9em;
     line-height: 1.5;
 }
 
 /* Blocs de code avec coloration syntaxique (sourceCode) */
 .sourceCode {
-    background-color: #2d2d2d;
+    background-color: #fffef5;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 15px;
@@ -87,14 +87,14 @@ pre code {
     background-color: transparent;
     border: none;
     padding: 0;
-    color: #f8f8f2;
+    color: #333;
     font-size: 0.9em;
     line-height: 1.5;
 }
 
 /* Coloration syntaxique PHP dans les blocs sourceCode */
 .sourceCode.php .kw {
-    color: #c678dd; /* Mots-clés PHP (<?php, if, foreach, etc.) */
+    color: #7c3aed; /* Mots-clés PHP (<?php, if, foreach, etc.) */
 }
 
 .sourceCode.php .fu {
